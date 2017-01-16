@@ -1,4 +1,4 @@
 [submodule "themes/jacman"]
 	path = themes/jacman
-	url = https://github.com/tianjiaoling/jacman.git
+	url = git@github.com:tianjiaoling/jacman.git
 	branch = myblog
