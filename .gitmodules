@@ -2,3 +2,7 @@
 	path = themes/jacman
 	url = git@github.com:tianjiaoling/jacman.git
 	branch = myblog
+[submodule "themes/next"]
+	path = themes/next
+	url = git@github.com:tianjiaoling/hexo-theme-next.git
+	branch = myblog
