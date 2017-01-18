@@ -1,8 +1,20 @@
+---
+title: Armor_Manual.4ALL
+date: 2016-10-13 10:07:01
+tags:
+  - D02
+  - D03
+  - D05
+categories:
+  - Estuary
+  - Documents
+---
 * [Introduction](#1)
 * [Information of Supported Armor Tools ](#2)
 * [Distributions](#3)
 * [Installation](#4)
 * [How to run Tool's test scripts](#5)
+<!--more-->
 
 ## <a name="1">Introduction</a>
 

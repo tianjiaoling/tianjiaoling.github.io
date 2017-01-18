@@ -1,5 +1,15 @@
-This is the readme file for D05 platform
+---
+title: Readme.4D05
+date: 2016-12-24
+tags:
+  - D05
+categories:
+  - Estuary
+  - Documents
+---
 
+This is the readme file for D05 platform
+<!--more-->
 After you executed `./estuary/build.sh --file=./estuary/estuarycfg.json --builddir=./workspace` for D05, all targets files will be produced. they are:
 
 ### UEFI_D05.fd

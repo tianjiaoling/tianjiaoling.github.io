@@ -1,4 +1,15 @@
+---
+title: Readme.4QEMU
+date: 2016-10-10 10:06:01
+tags:
+  - QEMU
+categories:
+  - Estuary
+  - Documents
+---
 This is the readme file for QEMU platform
+
+<!--more-->
 
 After you do `./estuary/build.sh -p QEMU -d Ubuntu`, all targets files will be produced into `<project root>/build/QEMU` directory, they are: UEFI, grub and dtb files are not necessary for QEMU platform
 

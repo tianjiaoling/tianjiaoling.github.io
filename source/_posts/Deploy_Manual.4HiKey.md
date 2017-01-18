@@ -1,3 +1,12 @@
+---
+title: Deploy_Manual.4HiKey
+date: 2016-10-10 10:08:01
+tags:
+  - HiKey
+categories:
+  - Estuary
+  - Documents
+---
 * [Introduction](#1)
 * [Preparation](#2)
    * [Hardware Connect](#2.1)
@@ -11,6 +20,7 @@
      * [eMMC on HiKey placing this ubuntu systerm](#3.3.2)
 * [Appendix 1: Partition Information](#4) 
 
+<!--more-->
 
 ## <a name="1">Introduction</a>
 

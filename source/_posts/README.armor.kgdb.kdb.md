@@ -1,5 +1,18 @@
+---
+title: README.armor.kgdb.kdb
+date: 2016-10-10 10:10:01
+tags:
+  - D02
+  - D03
+  - D05
+categories:
+  - Estuary
+  - Documents
+---
 * [Readme for KGDB and KDB Tools](#1)
 * [Debugging using KGDB](#2)
+
+<!--more-->
 
 ## <a name="1">Readme for KGDB and KDB Tools</a>
 

@@ -1,3 +1,14 @@
+---
+title: Armor_Tools_Supported.4All
+date: 2016-10-09 10:07:01
+tags:
+  - D02
+  - D03
+  - D05
+categories:
+  - Estuary
+  - Documents
+---
 * [Introduction](#1)
 * [List of supported Tools in Armor](#2)
  * [Ubuntu](#2.1)
@@ -6,6 +17,7 @@
  * [Debian](#2.4)
  * [CentOS](#2.5)
  * [Miscelleneous Tools](#2.6)
+<!--more-->
 
 ## <a name="1">Introduction</a>
 

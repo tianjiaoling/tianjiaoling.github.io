@@ -1,3 +1,14 @@
+---
+title: Caliper_Manual.4All
+date: 2016-10-09 10:07:01
+tags:
+  - D02
+  - D03
+  - D05
+categories:
+  - Estuary
+  - Documents
+---
 * [What is Caliper?](#1)
 * [Caliper Organization](#2)
 * [System Requirements](#3)
@@ -31,5 +42,6 @@
 * [List of Benchmarks Supported in Caliper](#10)
 
 
+<!--more-->
 
 For the details, please refer to http://open-estuary.org/caliper-benchmarking/

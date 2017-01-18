@@ -1,4 +1,15 @@
+---
+title: Readme.4HiKey
+date: 2016-10-10 10:08:01
+tags:
+  - HiKey
+categories:
+  - Estuary
+  - Documents
+---
 This is the readme file for HiKey platform
+
+<!--more-->
 
 Above all, you need install some applications firstly as follows:  
 ```bash

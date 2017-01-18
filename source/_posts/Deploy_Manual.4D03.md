@@ -1,3 +1,12 @@
+---
+title: Deploy_Manual.4D03
+date: 2016-12-24
+tags:
+  - D03
+categories:
+  - Estuary
+  - Documents
+---
 * [Introduction](#1)
 * [Preparation](#2)
    * [Prerequisite](#2.1)
@@ -7,6 +16,7 @@
    * [Boot via PXE(ACPI)](#3.1)
    * [Boot via NFS(ACPI)](#3.2)
    * [Boot via DISK(SAS/USB/SATA)(ACPI)](#3.3)
+<!--more-->
 
 ## <a name="1">Introduction</a>
 

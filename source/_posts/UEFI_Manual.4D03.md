@@ -1,6 +1,17 @@
+---
+title: UEFI_Manual.4D03
+date: 2016-12-24
+tags:
+  - D03
+categories:
+  - Estuary
+  - Documents
+---
+
 * [Introduction](#1)
 * [Upgrade UEFI](#2)
 * [Recover the UEFI when it broke](#3)
+<!--more-->
 
 ## <a id="1">Introduction</a>
 

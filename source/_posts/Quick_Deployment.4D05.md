@@ -1,9 +1,20 @@
+---
+title: Quick_Deployment.4D05
+date: 2016-12-24
+tags:
+  - D05
+categories:
+  - Estuary
+  - Documents
+---
+
 * [Introduction](#1)
 * [Quick Deploy System](#2)
    * [Deploy system via USB install Disk](#2.1)
    * [Deploy system via DVD/BMC-website](#2.2)
    * [Deploy system via PXE](#2.3)
 * [View serial info via VGA/ipmitool/BMC-website](#3)
+<!--more-->
 
 ## <a name="1">Introduction</a>
 

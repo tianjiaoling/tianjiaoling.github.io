@@ -1,4 +1,17 @@
+---
+title: Distributions_Guild.4All
+date: 2016-10-10 10:10:01
+tags:
+  - D02
+  - D03
+  - D05
+categories:
+  - Estuary
+  - Documents
+---
 This is the guide for distributions
+
+<!--more-->
 
 Distribution indicates a specially total rootfs for linux kernel.  
 After you run `./estuary/build.sh -d <Platform Name> -p <Distribution Name>`, the corresponding distribution tarball will be created into `<project root>/build/<platform name>/distro`.  

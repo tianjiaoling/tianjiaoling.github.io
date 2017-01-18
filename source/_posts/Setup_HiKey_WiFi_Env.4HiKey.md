@@ -1,7 +1,20 @@
+---
+title: Setup_HiKey_WiFi_Env.4HiKey
+date: 2016-10-10 10:10:01
+tags:
+  - D02
+  - D03
+  - D05
+categories:
+  - Estuary
+  - Documents
+---
 * [Config WiFi On mini-rootfs systerm](#1)
 * [Config WiFi On Ubuntu & Debian systerm](#2)
 * [Fedora && CentOS wifi configure](#3)
 * [OpenSuse Wifi configure](#4)
+
+<!--more-->
 
 This is a guide to setup a WiFi environment on your HiKey board.
 

@@ -1,4 +1,17 @@
+---
+title: Toolchains_Guide.4All
+date: 2016-10-10 10:10:01
+tags:
+  - D02
+  - D03
+  - D05
+categories:
+  - Estuary
+  - Documents
+---
 This is the guide for toolchains
+
+<!--more-->
 
 If your host machine and target machine have the different architecture, you have to prepare toolchains before you build any target binaries.
 

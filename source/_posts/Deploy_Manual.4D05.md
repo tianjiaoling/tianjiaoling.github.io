@@ -1,3 +1,13 @@
+---
+title: Deploy_Manual.4D05
+date: 2016-12-24
+tags:
+  - D05
+categories:
+  - Estuary
+  - Documents
+---
+
 * [Introduction](#1)
 * [Preparation](#2)
    * [Prerequisite](#2.1)
@@ -7,6 +17,7 @@
    * [Boot via PXE(ACPI)](#3.1)
    * [Boot via NFS(ACPI)](#3.2)
    * [Boot via DISK(SAS/USB/SATA)(ACPI)](#3.3)
+<!--more-->
 
 <h2 id="1">Introduction</h2>
 
@@ -215,13 +226,13 @@ D05 board supports booting via SAS, USB and SATA by default. The UEFI will direc
 
    Note: D05 only supports booting system with Centos, so Centos distribution should be uncompressed in sda2. The grubaa64.efi file must be put in /EFI/GRUB2 directory of dev/sda1(gpt partition)
 
-   To get kernel image file, please refer to [Readme.md](https://github.com/open-estuary/estuary/blob/master/doc/Readme.4D05.md).<br>
+   To get kernel image file, please refer to [Readme.md](https://github.com/open-estuary/estuary/tree/estuary-d05-3.0b/doc/Readme.4D05.md).<br>
    To get and config grub and grub.cfg, please refer to [Grub_Manual.md](https://github.com/open-estuary/estuary/tree/estuary-d05-3.0b/doc/Grub_Manual.4All.md).<br>
    To get Centos distribution, please refer to [Distributions_Guider](https://github.com/open-estuary/estuary/blob/master/doc/Distributions_Guide.4All.md).<br>
 
 3. Boot the board via SAS/USB/SATA
 
-   a. Modify grub config file, please refer to [Grub_Manual.4All.md](https://github.com/open-estuary/estuary/blob/master/doc/Grub_Manual.4All.md)<br>
+   a. Modify grub config file, please refer to [Grub_Manual.4All.md](https://github.com/open-estuary/estuary/blob/estuary-d05-3.0b/doc/Grub_Manual.4All.md)<br>
    e.g.: <br>
    ```bash
     # Sample GRUB configuration file

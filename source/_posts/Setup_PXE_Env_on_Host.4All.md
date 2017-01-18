@@ -1,8 +1,21 @@
+---
+title: Setup_PXE_Env_on_Host.4All
+date: 2016-10-10 10:10:01
+tags:
+  - D02
+  - D03
+  - D05
+categories:
+  - Estuary
+  - Documents
+---
 * [Introduction](#1)
 * [Setup DHCP server on Ubuntu](#2)
 * [Setup TFTP server on Ubuntu](#3)
 * [Put files in the TFTP root path](#4)
 * [Setup NFS server on Ubuntu](#5)
+
+<!--more-->
 
 This is a guide to setup a PXE environment on host machine.
 
@@ -10,7 +23,7 @@ This is a guide to setup a PXE environment on host machine.
 
 PXE boot depends on DHCP, TFTP and NFS services. So before verifing PXE, you need to setup a working DHCP, TFTP, NFS server on one of your host machine in local network. In this case, my host OS is Ubuntu 12.04.
 
-### <a name="2">Setup DHCP server on Ubuntu</a>
+### <a name="2">Setup DHCP server on Ubuntu</a
 
 Refer to https://help.ubuntu.com/community/isc-dhcp-server . For a simplified direction, try these steps:
 
@@ -112,10 +125,8 @@ To get kernel and dtb file, please refer to Readme.md.
 * Install NFS server package  
   `sudo apt-get install nfs-kernel-server nfs-common portmap`  
 * Modify configure file `/etc/exports` for NFS server  
-  Add following contents at the end of this file.  
-  ```bash
-  </rootnfs> *(rw,sync,no_root_squash)
-  ```
+  Add following contents at the end of this file.
+  </rootnfs> *(rw,sync,no_root_squash)  
   Note: `</rootnfs>` is your real shared directory of rootfs of distributions for NFS server.
 
 * Uncompress a distribution to `</rootnfs>`  

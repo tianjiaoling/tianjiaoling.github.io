@@ -1,3 +1,13 @@
+---
+title: Deploy_Manual.overdrive
+date: 2017-01-11
+tags:
+  - overdrive
+categories:
+  - Estuary
+  - Documents
+---
+
 * [Introduction](#1)
 * [Preparation](#2)
    * [Prerequisite](#2.1)
@@ -7,6 +17,8 @@
    * [Boot via PXE(ACPI)](#3.1)
    * [Boot via NFS(ACPI)](#3.2)
    * [Boot via DISK(SAS/SATA)(ACPI)](#3.3)
+
+<!--more-->
 
 <h2 id="1">Introduction</h2>
 
@@ -217,7 +229,7 @@ overdrive board supports booting via SAS, USB and SATA by default. The UEFI will
 
    b. Reboot and press "Del" to enter UEFI Boot Menu. Move mouse to "Save&Exit".
 
-   c. For SAS and sata: select "HardDisk" to enter grub selection menu.
+   c. For SAS and sata: select "UEFI: BUILT In EFI shell" to enter grub selection menu.
 
    d. Press arrow key up or down to select grub boot option to decide which distribution should boot.
 

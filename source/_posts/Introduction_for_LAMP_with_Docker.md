@@ -1,5 +1,17 @@
+---
+title: Introduction_for_LAMP_with_Docker
+date: 2016-10-10 10:10:01
+tags:
+  - D02
+  - D03
+  - D05
+categories:
+  - Estuary
+  - Documents
+---
 How to Build LAMP Service with Docker Images?
 
+<!--more-->
 This doc is designed to build LAMP service by using Docker Images.
 
 LAMP is an archetypal model of web service solution stacks, which contains four parts: the Linux operating system, the Apache HTTP Server, MySQL, and the PHP programming language. Docker helps developers focus on the web project, not the running environment.
