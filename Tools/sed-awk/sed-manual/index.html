@@ -83,12 +83,12 @@
 <meta property="og:url" content="git@:github.com:tianjiaoling/tianjiaoling.github.io.git/Tools/sed-awk/sed-manual/index.html">
 <meta property="og:site_name" content="Etesting">
 <meta property="og:description" content="sed 简要介绍Sed(Stream EDitor)为 UNIX 系统上提供将编辑工作自动化的编辑器 , 使用者无需直接编辑资料。使用者可利用 sed 所提供 20 多种不同的函数[参数] , 组合它们完成不同的编辑动作。此外 ,由於 sed 都以行为单位编辑文件 , 故其亦是行编辑器(line editor)。 一般 sed 最常用在编辑那些需要不断重覆某些编辑动作的文件上, 例如将文件中的某个">
-<meta property="og:image" content="git@:github.com:tianjiaoling/tianjiaoling.github.io.git/2016/09/23/sed-manual/sed.gif">
+<meta property="og:image" content="git@:github.com:tianjiaoling/tianjiaoling.github.io.git/etesting/Tools/sed-awk/sed-manual/sed.gif">
 <meta property="og:updated_time" content="2017-01-18T01:39:20.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="sed 学习手册">
 <meta name="twitter:description" content="sed 简要介绍Sed(Stream EDitor)为 UNIX 系统上提供将编辑工作自动化的编辑器 , 使用者无需直接编辑资料。使用者可利用 sed 所提供 20 多种不同的函数[参数] , 组合它们完成不同的编辑动作。此外 ,由於 sed 都以行为单位编辑文件 , 故其亦是行编辑器(line editor)。 一般 sed 最常用在编辑那些需要不断重覆某些编辑动作的文件上, 例如将文件中的某个">
-<meta name="twitter:image" content="git@:github.com:tianjiaoling/tianjiaoling.github.io.git/2016/09/23/sed-manual/sed.gif">
+<meta name="twitter:image" content="git@:github.com:tianjiaoling/tianjiaoling.github.io.git/etesting/Tools/sed-awk/sed-manual/sed.gif">
 
 
 
@@ -395,7 +395,7 @@
 </ol>
 <p>因为每次只把输入的某些行驻留在内存中, 并且不使用临时文件,所以可编辑的文件的有效大小,只受限于输入和输出要同时共存于次级存储的要求。可以单独的建立复杂的编辑脚本并作为给 sed 的命令文件。对于复杂的编辑,这节省了可观的键入和随之而来的错误。从命令文件运行 sed 高效于作者所知道的任何交互式编辑器,甚至包括能用预先写好的脚本驱动的编辑器。</p>
 <p>相较于交互式编辑器而言,根本性的损失是缺乏相对地址(由于操作是每次一行的),和缺乏对命令如期运行的立即验证。<br><a id="more"></a></p>
-<h2 id="sed-如何工作"><a href="#sed-如何工作" class="headerlink" title="sed 如何工作"></a>sed 如何工作</h2><p>如同其它 UNIX 命令, sed 由标准输入读入编辑文件并由标准输出送出结果。下图表示 sed将资料行 “<code>Unix</code>“ 替换成 “<code>UNIX</code>“,<br><img src="/2016/09/23/sed-manual/sed.gif" alt="sed.gif" title=""><br>在图中, 上方 standard input 为标准输入, 是读取资料之处; standard output 为标准输出, 是送出结果之处;中间 sed 方块的下面两个虚线方块表示 sed 的工作流程。其中, 左边虚线方块表示 sed 将标准输入资料置入pattern space, 右边虚线方块表示 sed 将 pattern space 中编辑完毕後的资料送到标准输出。</p>
+<h2 id="sed-如何工作"><a href="#sed-如何工作" class="headerlink" title="sed 如何工作"></a>sed 如何工作</h2><p>如同其它 UNIX 命令, sed 由标准输入读入编辑文件并由标准输出送出结果。下图表示 sed将资料行 “<code>Unix</code>“ 替换成 “<code>UNIX</code>“,<br><img src="/etesting/Tools/sed-awk/sed-manual/sed.gif" alt="sed.gif" title=""><br>在图中, 上方 standard input 为标准输入, 是读取资料之处; standard output 为标准输出, 是送出结果之处;中间 sed 方块的下面两个虚线方块表示 sed 的工作流程。其中, 左边虚线方块表示 sed 将标准输入资料置入pattern space, 右边虚线方块表示 sed 将 pattern space 中编辑完毕後的资料送到标准输出。</p>
 <p>在虚线方块中, 两个实线方块分别表示 pattern space 与 sed script。其中, pattern space 为一缓区, 它是sed 工作场所; 而 sed script 则表示一组执行的编辑指令。</p>
 <p>在图中, 左边虚线方块 “Unix” 由标准输入置入 pattern space; 接着 , 在右边虚线方块中, sed执行 sed script 中的编辑指令<code>s/Unix/UNIX/</code>, 结果 “Unix” 被替换成 “UNIX”, 之後, “UNIX” 由pattern space 送到标准输出。</p>
 <p>总合上述所言, 当 sed 由标准输入读入一行资料并放入 pattern space 时, sed 依照 sed script 的编辑指令逐一对 pattern space 内的资料执行编辑, 之後, 再由 pattern space 内的结果送到标准输出, 接着再将下一行资料读入。如此重复执行上述动作 , 直至读完所有资料行为止。</p>
