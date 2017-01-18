@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Etesting
-subtitle: Estuary Testing
-description: Testing cases
-author: Estuary
+title: Catherine's Blog
+subtitle:
+description:
+author: Catherine
 language: zh-Hans
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 #url: http://jarsonfang.github.io
-url: git@:github.com:tianjiaoling/tianjiaoling.github.io.git
-root: /etesting/
+url: https://tianjiaoling.github.io
+root: /
 permalink: :category/:title/
 permalink_defaults:
 
