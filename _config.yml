@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
-timezone:
+title: Etesting
+subtitle: Estuary Testing
+description: Testing cases
+author: Estuary
+language: zh-Hans
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
-permalink: :year/:month/:day/:title/
+url: http://jarsonfang.github.io
+root: /etesting/
+permalink: :category/:title/
 permalink_defaults:
 
 # Directory
@@ -26,6 +26,7 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+    - README.md
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -60,16 +61,51 @@ time_format: HH:mm:ss
 per_page: 10
 pagination_dir: page
 
+index_generator:
+  per_page: 10
+
+tag_generator:
+  per_page: 25
+
+category_generator:
+  per_page: 25
+
+archive_generator:
+  per_page: 25
+  yearly: true
+  monthly: true
+
+# Markdown
+marked:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-#theme: landscape
-#theme: jacman
 theme: hexo-theme-next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/tianjiaoling/tianjiaoling.github.io.git
+  repo: git@github.com:/tianjiaoling/tianjiaoling/github.io.git
+# repo: https://github.com/tianjiaoling/tianjiaoling.github.io.git
   branch: master
+
+# Search
+search:
+  path: search.xml
+  field: post
+
+# Sitemap
+sitemap:
+  path: sitemap.xml
+
+baidusitemap:
+  path: baidusitemap.xml
