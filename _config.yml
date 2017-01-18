@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 #url: http://jarsonfang.github.io
-url: https://github.com/tianjiaoling/tianjiaoling.github.io.git
+url: git@:github.com:tianjiaoling/tianjiaoling.github.io.git
 root: /etesting/
 permalink: :category/:title/
 permalink_defaults:
@@ -95,8 +95,8 @@ theme: hexo-theme-next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-# repo: git@github.com:tianjiaoling/github.io.git
-  repo: https://github.com/tianjiaoling/tianjiaoling.github.io.git
+  repo: git@github.com:tianjiaoling/tianjiaoling/github.io.git
+# repo: https://github.com/tianjiaoling/tianjiaoling.github.io.git
   branch: master
 
 # Search
